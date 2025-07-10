@@ -21,14 +21,6 @@ perfil.textContent = `Olá, me chamo André Luigi de Miranda, tenho ${idade} ano
 Desenvolvimento de Sistemas
 da Unicesumar.`
 
-foto.addEventListener("click", function () {
- if (foto.src.includes("Andre.jpeg")) {
-  foto.src = "./image/Andre2.jpeg";
- } else {
-  foto.src = "./image/Andre.jpeg";
- }
-});
-
 optIcon.addEventListener("click", function () {
  menu()
 })
